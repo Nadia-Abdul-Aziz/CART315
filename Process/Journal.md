@@ -45,4 +45,10 @@ It utilizes the first person horror template, which I did not even know existed,
 
 I used the models provided by the tutorial, as I began importing the assets. The tutorial was made with a different editor version, so some nuances were present and I needed to troubleshoot from the very beginning, specifically in the animation blending at this stage. I used the animations given to assign different states to the enemy, before implementing the intelligence.
 
+The scripting logic was all done in blueprint (Many scripts), which I believe I will never learn to love.
 
+The loss state UI also proved to be a challenge as the UI elements would not appear, requiring creative solutions and blueprint troubleshooting. A brand new UI widget needed to be created and redone several times to achieve the end screen, consisting of a death notice, retry and give up buttons.
+
+## Improvements
+
+I drafted several eerie piano soundtracks, but ultimately did not have the time to implement any sound. I created drafts of drones in synthesizers as well, and I anticipated to have directional footsteps (scurrying) of the enemy. I would have also liked to modify the environment and customize it, though time did not allow for such.
