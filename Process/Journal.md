@@ -91,4 +91,4 @@ I simply used a counter to increase the score according to the mouse clicks, and
 ### Sound
 I truly am cursed with sound. Freesound it is...I am sad.
 
-![Code Snippet 1](/Media/Screenshot 2026-02-05 174703.png)
+See Media folder for code snippets & Cuuuuuuuube for project files
