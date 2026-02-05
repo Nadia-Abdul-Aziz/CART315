@@ -52,3 +52,41 @@ The loss state UI also proved to be a challenge as the UI elements would not app
 ## Improvements
 
 I drafted several eerie piano soundtracks, but ultimately did not have the time to implement any sound. I created drafts of drones in synthesizers as well, and I anticipated to have directional footsteps (scurrying) of the enemy. I would have also liked to modify the environment and customize it, though time did not allow for such.
+
+
+# Week 3 - Cube Dodger
+### 05/02/26
+
+
+## The Idea
+- Physics
+- Tags
+- Sound
+- Score & Printing
+
+I was absent in the previous week, missed one assignment in this class as well as other classes so I was well...behind. So the best I could come up with without crashing out was modifying one of the tutorials from the textbook. I do follow along with the textbook readings and the videos, but don't usually do them the exact same way or keep them around my files. I did not go through any iterating or thinking really because...PANIK...so here we are, with a trash quality prototype but eh, I learned something.
+
+## The Tutorial
+
+I have used Unity before, but never in 3D. As 3D is my main artistic medium, it was obviously intriguing. Its 3D workflow is quite different from Unreal and I will get used to it eventually. I used the very first exercise in the book, titled "hello world", simply because well, it was easy and I did not do much last week or over the weekend from game jam crunch, my catch up session this weekend will be legendary. Getthing through the editor was a breeze as I am comfortable in Unity, scripting without having prompts is proving to be a challenge indeed, as the simplest mechanic of spawning a cube, I doubted I could think of on my own at this stage, so that's what I did. I went through the exercise once on paper, then tried my best to recreate it from memory inside Unity, with my own skill, and praying for proper syntax and no bugs.
+
+That said, my first script was simply this attached to the camera to spawn the prefab, that's all, and I did end up needing to look around to get here, but hey, baby steps. The tutorial uses instantiate and never removes the cubes, so that is probably an implementation I sould have done. 
+
+## Expansions
+
+For the expansions, it was googling time. I initially created multiple scripts to create a modular workflow for each of my functions but that turned out to be a massive failure as I dumped all my code into my cube spawner (I deserve a slap) 
+
+Looking at the base the tutorial had given me, I wanted to create some sort of raycasting mechanism that would allow the user to click the screen through the stationary camera and collide with the cubes. This being said, somewhat of a dodging game where the player would need to click where a cube was not, if they hit one, the game ends. It is really quite simple. 
+
+I was using console statements throughout my script to ensure everything was working right.
+
+### Mouse
+
+I first tried to use the old input system and kept encountering errors, so I eventually figured out how to do it properly by going back to class content. I used a raycasting system by first finding the position of the mouse, then mapping it to the cube position on a 2D plane. An issue was enountered when the background objects were also triggering the game over state, despite only needing the cubes to be touched. Thus, a new tag had to be made. Me not being there last class also has its downsides as I spent 20 minutes banging my head against the wall when it would't find my cube tag...only to find out I needed to add it inside the editor.
+
+### Printing
+
+I simply used a counter to increase the score according to the mouse clicks, and printed them using a legacy text object, I could not get a tmp to drag into my variable slots for some reason. The game over is a bool within an if statement that is triggered when the cube is hit. 
+
+### Sound
+I truly am cursed with sound. Freesound it is...I am sad.
