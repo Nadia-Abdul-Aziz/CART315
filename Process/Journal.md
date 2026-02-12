@@ -118,16 +118,16 @@ The initial outcome would be for the character to become more and more scribbled
 Lines of dialogue that imply the reluctance to let go, or the notion that they must carry the burden with them.
 
 In development, I switched paths, and opted to have the obstacles obstruct the path of the character, and progressively cover the clickability of the text they need to click to go forward, Thus, after the 6th and largest obstacle, the game ends.
-[Gameplay](./Media/Screenshot 2026-02-12 172658.png)
+[Gameplay](./Media/Screenshot 2026-02-12 172658.png).
 Instead of visibly going slower and heavier (I did not have time to implement the animations), the obstacles spawn at larger and larger intrvals.
 
 ## Art
 
 I started with the art as I explored some references, I thought about this foggy scratchy silouhette that doesn't have any soul or personality as the protagonist, just black. The first thing I did was sketch out a menu screen (Which i did not use...) to explore the aesthetics within gameplay that I wanted, because I need to start caring about that:
-[Menu](./Media/Screenshot 2026-02-12 6.02.50 PM.png)
+[Menu](./Media/Screenshot 2026-02-12 6.02.50 PM.png).
 (Yes, the button becomes brighter as another sprite that would switch when clicked)
 I then created a simple walk cycle of a character.
-[Walk Cycle](./Media/Screenshot 2026-02-12 6.06.59 PM.png)
+[Walk Cycle](./Media/Screenshot 2026-02-12 6.06.59 PM.png).
 Resulting in this final drawing:
 [Background](./Media/sketch1770926110868.png)
 The obstacles, considering my initial goal of de-clarifying the player, I opted for these scribbles that I could animate over the character.
