@@ -98,16 +98,55 @@ I truly am cursed with sound. Freesound it is...I am sad.
 # Week 4 - Shadow
 ### 12/02/26
 
+- Attempted spawning children objects (Removed)
+- Prefabs
+- Self-made sprites & animation
 
 ## The initial Idea
 
 You know sometimes when you have a baller idea at 3am...yeah this was one of those days. I was talking to Marc the other day about starting independent research on emotional detachment and suppression in video games. Just a simple mechanic for now, working within this overarching idea, it's a start. I can try doing some art and sound just because, for funsies. The plan is to have some kind of framework to work towards in this class, even in the exploration prototypes, to somewhat scope out the ins and outs of said idea without pressure of fidelity or anything like that. No need to be deep, useful, can be extremely stupid, more so an overarching theme or aesthetic. I wanted to start thinking about aesthetics and what I wanted to do, so best to start early.
 
+## Mechanics
+The main idea consisted of a characted progressively taking on more burdens, and I thought about how I can do so quickly for just an exploratory concept. Thus, I converged on the idea of an endless runner. A runner where progressively larger "obstacles" would spawn and would somehow obstruct either the look or path of the character.
+
+The initial outcome would be for the character to become more and more scribbled or unclear, and slow down, to represent how the burden weighs on them. The obstacle would fall, some kind of dialogue would appear such as:
+
+- "I need to hang on to this..."
+  
+- "I can't go on without this..."
+
+Lines of dialogue that imply the reluctance to let go, or the notion that they must carry the burden with them.
+
+In development, I switched paths, and opted to have the obstacles obstruct the path of the character, and progressively cover the clickability of the text they need to click to go forward, Thus, after the 6th and largest obstacle, the game ends.
+
+Instead of visibly going slower and heavier (I did not have time to implement the animations), the obstacles spawn at larger and larger intrvals.
+
 ## Art
 
-I started with the art as I explored some references, I thought about this foggy scratchy silouhette that doesn't have any soul or personality as the protagonist, just black. 
-## Mechanics
+I started with the art as I explored some references, I thought about this foggy scratchy silouhette that doesn't have any soul or personality as the protagonist, just black. The first thing I did was sketch out a menu screen (Which i did not use...) to explore the aesthetics within gameplay that I wanted, because I need to start caring about that:
 
-##
+(Yes, the button becomes brighter as another sprite that would switch when clicked)
+I then created a simple walk cycle of a character.
+
+The road I created was loosely based on this reference image:
+
+Resulting in this final drawing:
+
+The obstacles, considering my initial goal of de-clarifying the player, I opted for these scribbles that I could animate over the character.
+
+## Programming
+
+I followed an endless runner tutorial to begin, and adapted it HEAVILY...very HEAVILY, and essentially only used the spawner logic really. The original tutorial actually did include children objects with different variables, but I ultimately removed them to move towards my goal, and never re-incorporated them before submission. The player movement is quite simple with simple left and right movement with colliders and a rigid body. (See Code snippet below) The collision system and spawner is uh....I don't wanna talk about it, it doesn't work amazingly, and the first obstacle was stopping way before it was supposed to so I just...removed the collider for the purposes of the prototype. 
+
+## Future
+
+[!alt-text](./image.png)
+
+Will I continue this? HELL YEAH, I like the idea, it just sucks at the moment and is super simple. I think the art works well and was a successful exploration in that sense, but needs some refinement since it looks a little inconsistent at times. The programming is well, a mess (That's what I'm here to learn anyway lol) so we're gonna get somewhere. I'll most likely expand on it in the coming days, with a new journal note. 
+
+
+
+
+
 
 
