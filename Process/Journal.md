@@ -210,3 +210,20 @@ public class mrSharpSpawner : MonoBehaviour
         Debug.Log("Game Over! Final Score: " + score);
     }
 }```
+
+# Week 4 - Shadow
+### 12/02/26
+
+
+## The initial Idea
+
+You know sometimes when you have a baller idea at 3am...yeah this was one of those days. I was talking to Marc the other day about starting independent research on emotional detachment and suppression in video games. Just a simple mechanic for now, working within this overarching idea, it's a start. I can try doing some art and sound just because, for funsies. The plan is to have some kind of framework to work towards in this class, even in the exploration prototypes, to somewhat scope out the ins and outs of said idea without pressure of fidelity or anything like that. No need to be deep, useful, can be extremely stupid, more so an overarching theme or aesthetic. I wanted to start thinking about aesthetics and what I wanted to do, so best to start early.
+
+## Art
+
+I started with the art as I explored some references, I thought about this foggy scratchy silouhette that doesn't have any soul or personality as the protagonist, just black. 
+## Mechanics
+
+##
+
+
