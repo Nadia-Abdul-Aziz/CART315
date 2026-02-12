@@ -131,7 +131,7 @@ I then created a simple walk cycle of a character.
 The road I created was loosely based on this reference image:
 
 Resulting in this final drawing:
-
+[!Background](./Process/Media/sketch1770926110868.png)
 The obstacles, considering my initial goal of de-clarifying the player, I opted for these scribbles that I could animate over the character.
 
 ## Programming
@@ -140,7 +140,6 @@ I followed an endless runner tutorial to begin, and adapted it HEAVILY...very HE
 
 ## Future
 
-[!alt-text](./image.png)
 
 Will I continue this? HELL YEAH, I like the idea, it just sucks at the moment and is super simple. I think the art works well and was a successful exploration in that sense, but needs some refinement since it looks a little inconsistent at times. The programming is well, a mess (That's what I'm here to learn anyway lol) so we're gonna get somewhere. I'll most likely expand on it in the coming days, with a new journal note. 
 
