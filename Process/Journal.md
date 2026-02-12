@@ -131,7 +131,7 @@ I then created a simple walk cycle of a character.
 The road I created was loosely based on this reference image:
 
 Resulting in this final drawing:
-[!Background](./Process/Media/sketch1770926110868.png)
+[!Background](./Media/sketch1770926110868.png)
 The obstacles, considering my initial goal of de-clarifying the player, I opted for these scribbles that I could animate over the character.
 
 ## Programming
