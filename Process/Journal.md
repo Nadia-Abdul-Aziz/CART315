@@ -127,8 +127,10 @@ I started with the art as I explored some references, I thought about this foggy
 [Menu](./Media/Screenshot 2026-02-12 6.02.50 PM.png).
 (Yes, the button becomes brighter as another sprite that would switch when clicked)
 I then created a simple walk cycle of a character.
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Screenshot%202026-02-12%206.06.59%20PM.png">
 [Walk Cycle](./Media/Screenshot 2026-02-12 6.06.59 PM.png).
 Resulting in this final drawing:
+<img src="image.jpg" alt="Description of image">
 [Background](./Media/sketch1770926110868.png)
 The obstacles, considering my initial goal of de-clarifying the player, I opted for these scribbles that I could animate over the character.
 
@@ -141,7 +143,27 @@ The collision system and spawner is uh....I don't wanna talk about it, it doesn'
 
 Will I continue this? HELL YEAH, I like the idea, it just sucks at the moment and is super simple. I think the art works well and was a successful exploration in that sense, but needs some refinement since it looks a little inconsistent at times. The programming is well, a mess (That's what I'm here to learn anyway lol) so we're gonna get somewhere. I'll most likely expand on it in the coming days, with a new journal note. 
 
+# Week 5 - Shadow Contd.
+### 19/02/26
 
+- More drawing and animation implementation!
+
+## The Prototype Idea
+This week follows the prototype that I was developping last week, I did not do much this week though since I had already done so much in the previous week. The idea has been further developped narratively outside the scope of this class. I've developped this potential idea of using the shadow as a vessel to contain emotional turmoil to rid the host from the pain. That said, it can function as a container, but will eventually overfill, so I eventually want to develop it into some kind of "purge" of sorts that needs to happen peridically, and conversely if the shadow does not return to normal after the purge, then the host experiences the brunt of the emotional pain. I think this is a good idea to play on the theoretical idea of suppression and depersonalization.
+
+## Implementation
+The implementation followed the basic class instructions that were given (P.S, I would love class recordings of the demos), as well as the following tutorial:
+
+https://www.youtube.com/watch?v=AdQz2wStdLY
+
+I unfortunately drew the animations but could not implement them last week! SO NOW I DID AAAAA!!!
+
+The sizing out of my drawing application was not scaling well within unity and required some troubleshooting for some reason that I did not expect. The walking animations also did not provide as much motion as I would have liked, so in the event of improvement, I could go back and redo the walk cycle. The scribbles added an amazing touch to the character towards communicating the message.
+
+A new animation was added to further accentuate the accumulation of weight as the character progresses. I added animations that progressively increase the scribbles on the body to illustrate the mental turmoil of carrying these weights.==
+## Future
+
+I don't think this is viable as a final project as it currently stands though with some tweaks it can be in the case that I do the final project individually. If not, then will likely develop the idea for independent work, since I think there is some potential here.
 
 
 
