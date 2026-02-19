@@ -118,21 +118,20 @@ The initial outcome would be for the character to become more and more scribbled
 Lines of dialogue that imply the reluctance to let go, or the notion that they must carry the burden with them.
 
 In development, I switched paths, and opted to have the obstacles obstruct the path of the character, and progressively cover the clickability of the text they need to click to go forward, Thus, after the 6th and largest obstacle, the game ends.
-[Gameplay](./Media/Screenshot 2026-02-12 172658.png).
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Screenshot%202026-02-12%20172658.png">
 Instead of visibly going slower and heavier (I did not have time to implement the animations), the obstacles spawn at larger and larger intrvals.
 
 ## Art
 
 I started with the art as I explored some references, I thought about this foggy scratchy silouhette that doesn't have any soul or personality as the protagonist, just black. The first thing I did was sketch out a menu screen (Which i did not use...) to explore the aesthetics within gameplay that I wanted, because I need to start caring about that:
-[Menu](./Media/Screenshot 2026-02-12 6.02.50 PM.png).
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Screenshot%202026-02-12%206.02.50%20PM.png">
 (Yes, the button becomes brighter as another sprite that would switch when clicked)
 I then created a simple walk cycle of a character.
 <img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Screenshot%202026-02-12%206.06.59%20PM.png">
-[Walk Cycle](./Media/Screenshot 2026-02-12 6.06.59 PM.png).
-Resulting in this final drawing:
-<img src="image.jpg" alt="Description of image">
-[Background](./Media/sketch1770926110868.png)
+Then this final drawing of the background:
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/sketch1770926110868.png">
 The obstacles, considering my initial goal of de-clarifying the player, I opted for these scribbles that I could animate over the character.
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Screenshot%202026-02-12%206.02.01%20PM.png">
 
 ## Programming
 
@@ -158,9 +157,13 @@ https://www.youtube.com/watch?v=AdQz2wStdLY
 
 I unfortunately drew the animations but could not implement them last week! SO NOW I DID AAAAA!!!
 
-The sizing out of my drawing application was not scaling well within unity and required some troubleshooting for some reason that I did not expect. The walking animations also did not provide as much motion as I would have liked, so in the event of improvement, I could go back and redo the walk cycle. The scribbles added an amazing touch to the character towards communicating the message.
+The sizing out of my drawing application was not scaling well within unity and required some troubleshooting for some reason that I did not expect. The walking animations also did not provide as much motion as I would have liked, so in the event of improvement, I could go back and redo the walk cycle.
 
-A new animation was added to further accentuate the accumulation of weight as the character progresses. I added animations that progressively increase the scribbles on the body to illustrate the mental turmoil of carrying these weights.==
+A new animation was added to further accentuate the accumulation of weight as the character progresses. I added animations that progressively increase the scribbles on the body to illustrate the mental turmoil of carrying these weights. The scribbles added an amazing touch to the character towards communicating the message.
+
+I also improved the menu screen by adjusting colors
+
+
 ## Future
 
 I don't think this is viable as a final project as it currently stands though with some tweaks it can be in the case that I do the final project individually. If not, then will likely develop the idea for independent work, since I think there is some potential here.
