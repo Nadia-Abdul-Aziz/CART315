@@ -205,6 +205,10 @@ Narratively, Superliminal works because its story is inseparable from its mechan
 - Sketching (Alex)
 - Figma prototyping (ALL)
 
+## The process to get here
+
+So basically, in summary, me and Alex decided we might want to work together, so we started brainstorming and had a full page of content (I have not recieved consent to share it because it's a disaster...mostly my fault tbh), and one of our ideas centered around disability, then we went in for the workshop, and Alex and Nat were PRODUCTIVE...so nat was added to the team and here we are.
+
 ## The Prototype Idea
 
 This game flips the traditional narrative of disability by placing the player in a world where everyone else is disabled, except you. Difference becomes the source of isolation. We are currently debating whether the player is perceived as strange and an object of fear, or one of admiration, provoking jealousy, discomfort, or rejection from those around them. Rather than positioning disability as lack, the game reframes normality itself as a form of absence, rather something unremarkable, uninteresting, and missing. We are still unsure on the mechanics, as we will be discussing that next week, but we do know that we want it to be 3D, and 1st or 3rd person is undecided. We want the game to function by having the main character interact with npcs, and these interactions will give the main character a piece of insight towards their mindset and identity. The game will be structured in a series of areas, with each area becoming progressively claustrophobic and grim. The nature of the interactions will also increase in intensity and distress as he areas pass. Sensitive topics such as sucicidal ideation, eating disorders and metal health will be adressed, and a trigger warning is being considered. These are some questions we thought about:
@@ -252,7 +256,7 @@ We then began looking for narrative inspiration, first beginning in the form of 
 
 ## Next week
 
-We will be meeting to discuss mechanics early next week and aim to have a crude unity or paper prototype prepared soon. 
+We will be meeting to discuss mechanics early next week and aim to have a crude Unity or paper prototype prepared soon. We plan on starting a twine to flesh out the narrative or at least come up with a few npc personas + personal map of the main character (Design values, personality traits, desired outcomes, mental states to explore, etc). Additionally, we'd ideally want to start the unity project somehow, at least basic scripts.
 
 
 
