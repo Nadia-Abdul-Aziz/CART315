@@ -177,6 +177,82 @@ I also improved the menu screen by adjusting colors
 
 I don't think this is viable as a final project as it currently stands though with some tweaks it can be in the case that I do the final project individually. If not, then will likely develop the idea for independent work, since I think there is some potential here.
 
+# EXTRA EXTRA EXTRA!!! - Superliminal
+
+I have chosen a game at random for my review, and I am also challenging myself to write this without yapping and without excessive amounts of research, mostly from my own brain. Superliminal is a game that I played around a year ago an finished it in a few days, but it stuck with me, partly because of its simple mechanics yet masterful execution. It did happen to arrive in my steam during a time where I was obsessed with generating impossible objects in blender and play with optical illusions, so it stuck well, though I took a lot from the game and some elements still stick out to me to this day.
+
+## Mechanics & Narrative
+From a game design perspective, Superliminal is actually legit awesome because its core mechanic isn't really puzzles it reshapes the player’s understanding of reality. Instead of challenging the player's logic in a difficult manner like The talos principle (Okay, please don't get me started, I could write a paper on that game, but the puzzles themselves are created to test logical reasoning), superliminal challenges the viewer's perception and urges you to think outside the box. 
+
+I believe its main mechanic is dubbed forced perspective, so instead of mastering a system, the player must change how they see to progress. They are not governed by fixed scale or truth, only how they appear in our eyes. A small chess piece held close to the camera becomes a towering object when placed further away. A moon becomes a marble. A door can exist simply because the painting of one appears (I think this was in one of the rooms). This essentially removes the barrier between player cognition and avatar action and creates a design loop built not on skill mastery but on conceptual shifts.
+
+This mechanic only works because the game operates within non eulidean space (Similar to Antichamber or Manifold garden). Traditional games operate within stable, Euclidean space, distances are fixed, scale is consistent, and objects obey predictable...ish spatial rules. Even in fantasy, geometry behaves the way...it's supposed to, but in superliminal it doesn't. Size is not intrinsic, but relational, distance is not fixed, but collapsible, geometry is not stable, but viewpoint-dependent. An object does not have a “real” size, it has a seen size. When the player picks something up, they are not holding mass. Thus, puzzles can arise from contradictions, like a staircase that is both small and climbable, fundamentally non-Euclidean interactions, spaces that cannot exist in consistent three-dimensional geometry but are made functional through player perspective.
+
+Thus, it also removes some of the common pitfalls to puzzle games, whether exhaustion through complexity escalation, introducing more systems, and more, it just deepens the implications of the one. Each new puzzle feels fresh not because new mechanics are added, but because the meaning of the mechanic evolves.
+
+This is also very interesting from a narrative standpoint, as reality is in the eye of the beholder, specifically the brain’s reliance on visual cues to infer depth and scale, the game turns a cognitive shortcut into a systemic rule. Thus, this feeds into the narrative rooded in perceptual psychology of redefining your life.
+
+Narratively, Superliminal works because its story is inseparable from its mechanics. The game’s dream-therapy setting reframes its spatial distortions not as abstract puzzle gimmicks really, they're manifestations of the base theme of mindset change and interpretation. The writing is effective because it mirrors the gameplay’s gradual destabilization and reconstruction of certainty, as calm instructional voices become unreliable. I could go on about this all day, but this is getting long...BUT AAAAAH THE AESTHETIC AND USE OF LIMINAL SPACE FOR THE THEME!!
+
+# Week 6 - Disability centered game design.
+### 19/02/26
+
+- Literature Review (Nadia)
+- Short story and fiction research (Nadia)
+- Game inspiration Research (Nadia & Nat)
+- Pinterest moodboarding (All)
+- Palette extraction (Alex)
+- Sketching (Alex)
+- Figma prototyping (ALL)
+
+## The Prototype Idea
+
+This game flips the traditional narrative of disability by placing the player in a world where everyone else is disabled, except you. Difference becomes the source of isolation. We are currently debating whether the player is perceived as strange and an object of fear, or one of admiration, provoking jealousy, discomfort, or rejection from those around them. Rather than positioning disability as lack, the game reframes normality itself as a form of absence, rather something unremarkable, uninteresting, and missing. We are still unsure on the mechanics, as we will be discussing that next week, but we do know that we want it to be 3D, and 1st or 3rd person is undecided. We want the game to function by having the main character interact with npcs, and these interactions will give the main character a piece of insight towards their mindset and identity. The game will be structured in a series of areas, with each area becoming progressively claustrophobic and grim. The nature of the interactions will also increase in intensity and distress as he areas pass. Sensitive topics such as sucicidal ideation, eating disorders and metal health will be adressed, and a trigger warning is being considered. These are some questions we thought about:
+
+- Illustrating the questioning of legitimacy but peers
+- Showing internal doubt and rumination from perceived difference
+- Exploring identity through imposed deficiency (Normal but framed as deficient)
+- Framing normality as structural failure
+- Anxiety of not being “enough” or "they way I should be"
+- Examining envy toward others
+- Rendering social comparison as violence
+- Treating disabilities as an internal experience, rather than a visible one
+- Reflecting the burden of having no infrastructure
+- Depicting exclusion without hostility
+- Exhaustion of constant self-justification
+- Showing how admiration can isolate
+- Visualizing alienation through spatial design
+- Portraying empathy as selective
+- Longing for visible struggle
+- Showing internal conflict between pride and shame
+- Illustrating the desire to be “fixed” socially
+- Exploring absence as a form of stigma
+- Silence as a social barrier
+- Resilience becomes expectation
+- Compliments come across as dismissive
+- How others cannot believe the severity of the matter
+- Others unknowingly poking at insecurities
+- Mental construction of self-image
+- Elements of psychosis (Need to be fleshed out)
+- How the collective experience can impact self image
+
+## Look & Feel
+
+This week, we focused on solely the aesthetic and atmosphere of the game as a whole: please see the figma files below for the full mind map.
+
+https://www.figma.com/board/96Agl9qXBoQBG0pwlN38Df/CART315-look-feel-prototype?node-id=0-1&t=ECnj30gX93joJRnS-1
+
+We began by making a pinterest board collaboratively to converge on a vision, then extracted two main aesthetics, one that is bleak and another that is chaotic. We compromised on a painterly style that is serene and eerie yet chaotic with visible brushstrokes. We extracted the palettes from the images but debated them heavily that they were overused. Alex then came across a random image, with a purple color scheme, and we thought it provides a rather melancholy vibe to the atmosphere as opposed to the overused green undertones in film and media when representing distress. With some iteration, we settled on a final palette and style. As we want this to be in Unity 3D, we will be using Blender for the modeling with the grease pencil function, and procreate and perhaps substance painter as needed. 
+
+The figma file below detailes the style and color moodboard more:
+
+https://www.figma.com/design/DMQOIKNevP8mTI4C5B4ILA/CART315-Look-feel-prototype-moodboard?node-id=1-2&t=T8cN86bUOYaafqvr-1
+
+We then began looking for narrative inspiration, first beginning in the form of other games. Most of the games provide either a narrow view of some themes, and we noticed an overwhelming tendency to avoid distress and triggering topics in independent games. The amount of games whose main themes centered around disability or mental health proved to be low (Though we did find a few more after making the figma file, Depression Quest and more). I then moved to literature review where lots of appealing stories came through, such as Harrison Bergeron whose themes of ignorance, fear and egalitarianism are interesting to us. In flowers for algernon, the internal monologue of the main character as he processes the stages of his cognition as well as his social interactions are of much interest to us. In the yellow wallpaper, the subtle poetry of being misunderstood and ignored is an amazing reference. In acedemic literature review, we found much talk on the misrepresentation of diabilities and where the gaps lie, interestingly, we also found a paper directly surveying neurodivergent gamers on the representation they would like to see.
+
+## Next week
+
+We will be meeting to discuss mechanics early next week and aim to have a crude unity or paper prototype prepared soon. 
 
 
 
