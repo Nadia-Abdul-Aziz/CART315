@@ -284,6 +284,8 @@ The three of us met at TAG one day and sprawled everything on the whiteboard. We
 
 While in any of these areas, the player can return outside, which reflects the notion of if the player is overwhelmed by the society they may retreat.
 
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/20260301_145235.jpg">
+
 The transitions between each of these locations would be dictated by dialogue by the NPCs that come up to the player. A group favorite design decision was the behaviour of the NPCs, that all NPCs can be listened to, essentially eavesdropping on conversations. As the character progresses into insecurity, the topics of conversation become more and more relevant to the character's self. Thus NPC mechanics are the main driving factor of the game, and are as follows;
 
 For the player:
