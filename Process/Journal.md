@@ -258,6 +258,73 @@ We then began looking for narrative inspiration, first beginning in the form of 
 
 We will be meeting to discuss mechanics early next week and aim to have a crude Unity or paper prototype prepared soon. We plan on starting a twine to flesh out the narrative or at least come up with a few npc personas + personal map of the main character (Design values, personality traits, desired outcomes, mental states to explore, etc). Additionally, we'd ideally want to start the unity project somehow, at least basic scripts.
 
+# Week 8 - Disability centered game design: contd.
+
+- Narrative script & Dialogue(Nat)
+- Character personality sketches (Nat - In progress)
+- NPC Drafting (Alex)
+- Texturing (Alex)
+- Sculpting (Nadia)
+- Hard modeling (Nadia)
+- Unity level design (Nadia - In progress)
+- Mechanics finalization (All)
+- Gameplay finalisation (All)
+
+## The Meeting
+
+The three of us met at TAG one day and sprawled everything on the whiteboard. We went over the mechanics we wanted as well as how we wanted the game to flow. We ultimately decided that our character would spawn outdoors in a park, surrounded by people, and progressively enter more and more suffocating and claustrophobic spaces as follows:
+
+- Outside
+- Cafe
+- Job fair
+- Clinic
+- Job fair 5@7
+↓
+- Character dissociates to their bedroom
+
+While in any of these areas, the player can return outside, which reflects the notion of if the player is overwhelmed by the society they may retreat.
+
+The transitions between each of these locations would be dictated by dialogue by the NPCs that come up to the player. A group favorite design decision was the behaviour of the NPCs, that all NPCs can be listened to, essentially eavesdropping on conversations. As the character progresses into insecurity, the topics of conversation become more and more relevant to the character's self. Thus NPC mechanics are the main driving factor of the game, and are as follows;
+
+For the player:
+- Approach a group of NPCs to listen in
+- Any individual NPC can be directly interacted with using A
+- Important narrative driving NPCs will get the attention of the player but the player can choose to ignore or interact.
+For the dialogue array:
+- NPC group dialogue is stored by area of the game, and within an area, each time the player listens in, will recieve a random seed.
+- Once A is pressed on any NPC to interact directly, a random "Interact" dialogue from the area will be pushed.
+- Any driving dialogue will be stored seperately (once again by area) but will be pushed in order, if the player ignores one NPC, the same dialogue will be pushed to the next one.
+
+We then spoke about accessibility notions in the controls and gameplay, and decided we wanted to cater to colorblindness, implement customizable controls, and show the player where to go with an arrow.
+
+We made a scene brainstorm for outside, arguably our most important scene, while making a prop list. 
+
+(insert image)
+
+## Modeling & Sculpting
+
+From then my role shifted to the main 3D artist as I have experience blocking out levels in UE and asset making in Blender. Myself and Alex needed a way to test the aesthetics and pipeline between Blender and procreate. I wanted to create the leaves as image planes to minimize the amount of polies needed so well...I needed to make a leaf. I adhered to the painterly style we laid out, so that it could be turned into a sheet and converted into a blender particle system. The tree itself was created by hard modeling in blender in as low polies as I could, as I have a tendency to create extremely high poly assets. Given the list above, I made a bench, that I could then UV unwrap easily and send over to Alex to texture.
+
+Oh I also made a garbage can earlier but meh.
+
+I will be needing to sculpt NPCs, I have not decided whether sculpting them myself or using Metahuman is the right way to go given our painterly texturing plans, so that has been shoved aside for now. Instead I am sculpting a dog...yes a doggo...our doggo is very important.
+
+### The Dog
+
+So the doggo appears twice, at the very beginning and the very end. Upon character spawn in the park, they are met with a monument that represents resilience, which will (tbd) be the dog, then at the very end, using our color palette to communicate overwhelm, in a fully purple room, the dog emerges in the back of the room in fully yellow. It represents solace in this grim environment, and escape for the player, resilience. I began sculpting it in Nomad, and have purchased a few brush sets to complete it.
+
+## The unity 
+
+The unity project has been created and shared, but is currently empty. 
+
+That is essentially all on my end for the week!
+
+
+
+
+
+
+
 
 
 
