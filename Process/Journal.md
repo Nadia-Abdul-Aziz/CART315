@@ -291,7 +291,8 @@ The transitions between each of these locations would be dictated by dialogue by
 For the player:
 - Approach a group of NPCs to listen in
 - Any individual NPC can be directly interacted with using A
-- Important narrative driving NPCs will get the attention of the player but the player can choose to ignore or interact.
+- Important narrative driving NPCs will get the attention of the player but the player can choose to ignore or interact
+
 For the dialogue array:
 - NPC group dialogue is stored by area of the game, and within an area, each time the player listens in, will recieve a random seed.
 - Once A is pressed on any NPC to interact directly, a random "Interact" dialogue from the area will be pushed.
@@ -301,11 +302,16 @@ We then spoke about accessibility notions in the controls and gameplay, and deci
 
 We made a scene brainstorm for outside, arguably our most important scene, while making a prop list. 
 
-(insert image)
-
 ## Modeling & Sculpting
 
-From then my role shifted to the main 3D artist as I have experience blocking out levels in UE and asset making in Blender. Myself and Alex needed a way to test the aesthetics and pipeline between Blender and procreate. I wanted to create the leaves as image planes to minimize the amount of polies needed so well...I needed to make a leaf. I adhered to the painterly style we laid out, so that it could be turned into a sheet and converted into a blender particle system. The tree itself was created by hard modeling in blender in as low polies as I could, as I have a tendency to create extremely high poly assets. Given the list above, I made a bench, that I could then UV unwrap easily and send over to Alex to texture.
+From then my role shifted to the main 3D artist as I have experience blocking out levels in UE and asset making in Blender. Myself and Alex needed a way to test the aesthetics and pipeline between Blender and procreate. I wanted to create the leaves as image planes to minimize the amount of polies needed so well...I needed to make a leaf. I adhered to the painterly style we laid out, so that it could be turned into a sheet and converted into a blender particle system. The tree itself was created by hard modeling in blender in as low polies as I could, as I have a tendency to create extremely high poly assets.
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/227b610b-7112-429f-89f0-a477f8a782e3.png">
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/tree.png">
+
+Given the list above, I made a bench, that I could then UV unwrap easily and send over to Alex to texture.
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/image2.png">
 
 Oh I also made a garbage can earlier but meh.
 
@@ -314,6 +320,12 @@ I will be needing to sculpt NPCs, I have not decided whether sculpting them myse
 ### The Dog
 
 So the doggo appears twice, at the very beginning and the very end. Upon character spawn in the park, they are met with a monument that represents resilience, which will (tbd) be the dog, then at the very end, using our color palette to communicate overwhelm, in a fully purple room, the dog emerges in the back of the room in fully yellow. It represents solace in this grim environment, and escape for the player, resilience. I began sculpting it in Nomad, and have purchased a few brush sets to complete it.
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/image.png">
+
+Another design was conceptualized instead of the dog, based on a nude statue of an average man seemingly normal from the front, yet hunched from the side.
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Screenshot_2026-03-02_6.36.57_PM.png">
 
 ## The unity 
 
