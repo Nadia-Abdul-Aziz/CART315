@@ -335,6 +335,9 @@ That is essentially all on my end for the week!
 
 # Week 9 - Unity? 
 
+Yeah so basically, we're all gonna just meet up not next weekend, the next one and just crank this baby out like a game jam probably...
+
+# Week 10 - THE STRESS OF PROCRASTINATION HAS ARRIVED AAAAAAAAAAAAAAHHHHHHH
 
 
 
