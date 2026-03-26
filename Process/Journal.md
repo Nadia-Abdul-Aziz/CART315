@@ -339,6 +339,54 @@ Yeah so basically, we're all gonna just meet up not next weekend, the next one a
 
 # Week 10 - THE STRESS OF PROCRASTINATION HAS ARRIVED AAAAAAAAAAAAAAHHHHHHH
 
+Right, so we have done jack shit this week...I mean that, some stray things here and there but pretty much nothing. The goal I guess is to just crank it out in one weekend a semi-completed prototype as prototype 1, then move to refinement for prorotype 2 prior to the submission deadline and for playtesting. 
+
+You know when you tell yourself you're gonna do something but then you're just like bleeeeeergh and do nothing, yeah so that happened to all of us and here we are, my week went something like this and why should I hide it because it's lowkey funny:
+
+Friday: I need to do the unity thingy
+
+Weekend: I was stupid and did a shrek game jam...but maaaaaaybe I can squeeze in the unity
+
+Monday: I need to do the damn unity
+
+Tuesday: I need to really get my act together and do the unity AAAAAAAA *Stress makes foccacia for bestie*
+
+Wednesday: ??? Random sound thingy ??? huh ???
+
+Thursday morning: *Insert random gurgling noises*...K.O
+
+So yeah, in summary, we are cooked...I am more cooked than an overcooked rotisserie chicken. Sure, i did some sound...but like...
+
+## Soooond
+
+So the current scope includes an outdoor environment with a timeless european aesthetic, so I out of nowhere began sketching the soundscape of the game in anticipation for the true sound design portion. The sfx list may be as follows:
+
+- Trees
+- Walking
+- Wind
+- Street
+- Chatter
+- Bicycles
+- Fountain...if we have one
+
+and maybe a few more, so I was like ok so I have this stupid idea and igt isn't really related to the game but it serves as a good sketch for the sound. so I recorded the atmosphere outside on a zoom H6 and got to work. The sketch is simply the soundscape and the lead is bad MIDI for now. I think it does respect the mood of the game given that we have the progression with multiple levels, but not right now (SEE LINK)
+
+For the ending scene, which we may include, I created a synth patch that captures the notion of being overwhelmed and captures the tension and melancholy of the scene. 
+
+That said, I now have two approaches and I think I prefer the more organic approach for the final product, but may combine both.
+
+# Hooman
+
+So I also began making the NPC models in blender using a plugin called FaceBuilder, it is proving to be a slow but steady process. 
+
+# and that's all my lazy bum accomplished this week
+
+
+
+
+
+
+
 
 
 
