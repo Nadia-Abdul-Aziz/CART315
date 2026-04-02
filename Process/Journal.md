@@ -381,6 +381,8 @@ So I also began making the NPC models in blender using a plugin called FaceBuild
 
 # and that's all my lazy bum accomplished this week
 
+# Final week - Putting it together
+
 
 
 
