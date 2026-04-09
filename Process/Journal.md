@@ -375,13 +375,30 @@ For the ending scene, which we may include, I created a synth patch that capture
 
 That said, I now have two approaches and I think I prefer the more organic approach for the final product, but may combine both.
 
-# Hooman
+## Hooman
 
 So I also began making the NPC models in blender using a plugin called FaceBuilder, it is proving to be a slow but steady process. 
 
-# and that's all my lazy bum accomplished this week
+## and that's all my lazy bum accomplished this week
 
 # Final week - Putting it together
+
+This week we actually began shoving things into unity but well i shall keep this short what I did...
+
+- Environment blocking
+- Sound finishing
+- Fmod?
+- Basic interaction system
+
+I essentially gave up on most things since well...we're so behid so we'll likely present this thing without textures and stuff, just basic mechanics.
+I opened up the Unity, Alex had done a basic movement system so the first thing I did was implement a head bobbing texture. So that the character feels an up and down motion as they move, it also multiplies with sprinting. 
+
+I then started scattering trees and grass inside the Unity and getting familiar with the landscaping tools, it was some kind of asset package to get the scattering stuff. I had a bit of trouble with the grass and my model wouldn't appear, I still haven't figured it out so I will at some point next week. This is kind of what it looks like at this point and whatever is outside it will become streets.
+
+As mentionned I started importing a few of my own models into the scene and making them interactable, I started on the interaction portion but I gotta wait for Nat to do some UI so I can move on.
+
+
+My zoom recorder is employed again, some new walking, plants and stuff to be implemented. I watched some tutrials for Fmod but I think it might be out of our scope for the demo so we'll see what we can do, I might just put a few audio listeners. 
 
 
 
