@@ -400,6 +400,88 @@ As mentionned I started importing a few of my own models into the scene and maki
 
 My zoom recorder is employed again, some new walking, plants and stuff to be implemented. I watched some tutrials for Fmod but I think it might be out of our scope for the demo so we'll see what we can do, I might just put a few audio listeners. 
 
+# Week...something, more putting it together
+
+So this week we did a lot of very random things...finding out that the showcase isn't the final proved to be very detrimental to us....yeaaaaaah
+
+I did a little bit of texturing as we decided we will not have time to do more.
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Screenshot_2026-03-02_6.36.57_PM.png">
+
+Then I spent a lot of time reworking the narrative structure into something presentable within 5 minutes as our game is much smaller. To illustrate:
+
+__________
+
+(Overhearing)
+
+    PAUL
+Back in the day, people just dealt with things you know.
+   ELIJAH
+Yeaaaah, now everything is all waitlists and forms and everyone’s got some kind of sob story.
+    MALCOM
+Everyone wants to fucking feel special these days.
+   ELIJAH
+Mhm, some more than others
+    ALL
+*Look at MC and Laugh*
+
+___________
+
+(Interact)
+
+   ELIJAH
+Hey! Look who’s here!
+   MALCOM
+Oh wow. We really thought being out and about would not really be your vibe anymore.
+    JORDAN
+Well…Marissa said you guys were around, so I wasn't expecting you to be so surprised.
+   MALCOM
+Of course! Relax, don’t make it weird.
+    ELIJAH
+Drinks are on their way. If that's still your thing.
+    JORDAN
+Yeah. Thanks.
+   PAUL
+Marissa's around somewhere.
+    JORDAN
+I saw her, I think.
+   PAUL
+Good, you should go see her (smth to signify they’re trying to get rid of him)
+
+___________
+
+(Overhearing)
+
+   PAUL
+He used to be easier to talk to.
+   MALCOM
+Sometimes it's like he wants to be alone.
+    ELIJAH
+Yeah, you can't really help someone who doesn't want to be helped.
+    MALCOM
+Or maybe he likes people wondering.
+    PAUL
+That's harsh.
+   ELIJAH
+Is it though?
+
+____________
+
+I left myself to do a soundtrack, I might have overdone it and given a full 5 minutes of composition but alas, the more the merrier. It's smashing keys hoping to be jazz.
+
+(Link to sound)
+
+I started working on the animation graphs and modifying animations from mixamo as needed. WE HAVE A WORKING CHARACTER!!!
+
+He is kind of ugly but it doesn't really matter to be honest, it works, we'll see if we are able to texture him in time. Our first npc interaction is functional but the architecture is very crude and Alex will be reworking the code structure.
+
+
+
+The actual demo yielded very little feedback since we had very little prepared, it is difficult to reflect on something that barely happened, we essentially treated it as a work period, which is well...not good.
+What we did learn is that we have an insane amount of lag when played in editor, we did not realize this beforehand as we were mostly building without running. That is likely something to fix on my part in Blender due to the polycount. 
+
+" 
+
 
 
 
