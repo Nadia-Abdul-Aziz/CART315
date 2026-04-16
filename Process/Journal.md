@@ -480,7 +480,8 @@ He is kind of ugly but it doesn't really matter to be honest, it works, we'll se
 The actual demo yielded very little feedback since we had very little prepared, it is difficult to reflect on something that barely happened, we essentially treated it as a work period, which is well...not good.
 What we did learn is that we have an insane amount of lag when played in editor, we did not realize this beforehand as we were mostly building without running. That is likely something to fix on my part in Blender due to the polycount. 
 
-" 
+# Final Reflection
+
 
 
 
