@@ -482,6 +482,39 @@ What we did learn is that we have an insane amount of lag when played in editor,
 
 # Final Reflection
 
+I am unsure what my teammates have submitted, though in the end we did not succeed at creating a playable game. 
+
+## The failure
+Firstly I want to reflect upon the idea that these things happen, projects fall through, as this was a prototyping class focused on the reflective elements, we lacked the motivation to finish the actual game. We talked to each other in the last few weeks and ultimately decided that given all our mental health statuses, what we had done was sufficient time spent, and we can complete it over the summer. Past the submission of this journal, we told each other that we would work on it for our own portfolios, but knowing us, we cannot be sure. If we have a github link posted by the time you see this, you are very welcomed to use it!
+
+The prototype we initially outlined was...not much of a prototype and more so a full game. An easy one to implement mechanically, but a huge undertaking nonetheless. Both myself and other teammates are accustomed to the "crunch" or "Game Jam" mindset, and continued to favor that workflow, thus putting a lot of things off and saying "we'll crank it out". We learned that being passionate about the idea, can still mean we can bite off more than we can chew. Seeing team motivation as well as your own decline is truly a killer as the semester goes on. I have had journals where I journaled about doing nothing while my teammates scrambled one singular thing last minute. I feel that I failed the fail-proof, but it happens and is a learning experience to not repeat in the development process of future games.
+
+## What worked & What did not work
+
+When we started, we constantly bounced ideas off each other and were extremely motivated. We quickly learned that given our very adhd patterns, what worked best for us was beign together in the same room and working or talking. We also learned that as we get busier, we will tell each other we will do that...then never actually do it. When we did, we made incredible progress, narratively especially. 
+
+I will speak on behalf of myself first, and my main successes were in 3D and Audio. I had never worked in Unity 3D, and got around the interface quickly given my experience with Blender and UE 3D
+My 3D modeling proved to be very productive, I ended up making the following:
+
+- The dog
+- A statue
+- Coloring and animating 3 NPCs
+- 2 Trees
+- 2 Clumps of grass
+- Bench
+- Podium
+- Bicycle
+- 2 Bike racks
+- 2 Building variants
+
+Towards the beginning, when Alex was anticipated to texture them, I learned a lot about UV unwrapping, sure it was a struggle, but it was extremely valuable. Using Mixamo and combining animations within Untiy using the graph was also a tough cookie to crack, but hey I did it, now I know how to do it.
+
+In Audio my feats were the following:
+
+- a FULL 5 minute jazz composition
+- Sound effects for all UI elements
+
+Sure, being Jazz was an attempt, but i spent a lot of time learning how to adequately match the mood of the vision we had, which is valuable. The sound effects were very polished, which I am proud of. I began the implementation within a sound manager which is different from my previous workflows of attaching audio to objects. This is a more consolidated way to organize my sounds and will be useful in the sound design of future games. 
 
 
 
