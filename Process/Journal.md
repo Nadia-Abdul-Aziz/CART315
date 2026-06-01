@@ -554,11 +554,15 @@ I think using the REM is also a strong choice because it's already slightly limi
 
 I took pictures of a lot of things I thought I would forget, because photos are plenty on the internet. I needed to know exactly how many holders were above the chairs, not how stuff was arranged. I wasn’t really caring about quality, I just wanted to take brain references, not modeling ones. The photos are not pretty or even that functional, they are simply for references. These details are easy to overlook while riding the train, yet they contribute significantly to recreating a believable environment. This process made me realize that reference gathering is not always about accuracy in representation, sometimes it is about capturing the small observations that my monkey brain will discard. The photographs function less as images and more as memory aids that I would toss soon enough. 
 
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/image.png">
+
 # Day 2 (Tuesday) - Modeling & Game Design
 
 ## Modeling 
 
 I immediately jumped on modeling because I knew it would be time consuming even if I went fast
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/remHandle.png">
 
 I began by modeling the handles, this was fun. My polygon count was absolutely disgusting and I used the decimate modifiers to bring it down. This entire project is a lesson in accepting bad topology for the sake of polycount, it’s brutal. This is a bit of a new workflow since I am going so fast, i have never been this fast. I’ve been modifying the shapes to what I need in geometry, but then most of the time I needed to join pieces together, so I’d have to remesh it, which changes the object’s shape, then smoothing out and fine detailing in sculpting to improve it. This is new, and Anna would probably hate me, but it’s quick and dirty 
 
@@ -567,12 +571,16 @@ Rigged: Spline
 Materials: BSDF and procedural
 Tools: Vertex editing, sculpting & remeshing
 
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Chairs.png">
+
 The seats were significantly faster, it's literally just a flattened cube extruded on X then sculpted, but at some point I just went you know what i'm not going to care about the accuracy of the dent and just make it look believable, so yeah "god forbid" if the dent pattern isn't the same as the original lol
 
 Time Spent: 1 hour
 Rigged: No
 Materials: BSDF
 Tools: Vertex editing, sculpting
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/heater.png">
 
 I made the vent, which literaly took me 5 minutes, the bigger time waster was figuring out the proportions for the variant (Theres like one vent that sticks out more)
 
@@ -639,12 +647,16 @@ This outline provides me with a clear initial goal for a vertical slice prototyp
 
 ## Modeling
 
-I spent most of the day on voice chat with classmates doing random stuff, making this door, it was slower than it should have been because I was half paying attention. All in all creating the door's shape was relatively smooth, the challenge was making it sustainable in the case that I wanted it to open at some point, so the sides and main doors could not be attached. 
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/remdoor.png">
+
+I spent most of the day on voice chat with classmates doing random stuff, making this door was slower than it should have been because I was half paying attention. All in all creating the door's shape was relatively smooth, the challenge was making it sustainable in the case that I wanted it to open at some point, so the sides and main doors could not be attached. 
 
 Time Spent: 3 Hours
 Rigged: Yes
 Materials: BSDF and procedural
 Tools: Vertex editing & remeshing
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/pole.png">
 
 I did the middle pole, and it took a while to figure out how to join the pieces seamlessly without impacting the geometry so much and distorting the shape, this was not entirely successful since the topology is disgusting, but Unity doesn't care. 
 
@@ -652,6 +664,8 @@ Time Spent: 1 hour
 Rigged: No
 Materials: BSDF and Procedural
 Tools: Vertex editing, remeshing, and sculpting for smoothing
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/image.png">
 
 The ceiling poles were made quickly, but they will probably need to be re-proportionned. This has two variants
 
@@ -670,20 +684,28 @@ I downloaded the chimes and sounds heard in the train, and made a short composit
 
 Again, all this taught me that yes it's good to use diegetic sound, but be mindful when i get to implementation. Using my own recorded versions will certainly be better. 
 
+![Audio]("https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/REM.mp3")
+
 # Day 4 (Friday) - Unity & Modeling
 
 ## Modeling 
-The modeling itself wasn't very notable, just pipes, what was is the arranement of the elements. I began laying things out proportionally, or as proportional as I could. 
+
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/arrangement.png">
+
+The modeling itself wasn't very notable, just pipes, what was is the arranement of the elements. I began laying things out proportionally, or as proportional as I could. What I noticed is that I focused a lot on horizontal placement such that vertically I have no idea where things need to go, I shall see on my next REM trip. 
 
 Time Spent: 1 hour
 Rigged:
 Materials:
 Tools: 
 
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/poleside.png">
+
 Time Spent: 5 minutes
 Rigged:
 Materials:
 Tools:
+
 ## Unity
 
 So I am cursed with controllers. The reason I say this is because I have a tendency to do them...then stop...AAAAAAAAAAAAAAAAH
@@ -692,12 +714,27 @@ I made the first person controller based on this tutorial:
 
 It is very standard, the only thing it would need is bobbing, which I can just steal from the group project at this point. Lesson to keep code to reuse. That said, it was also a very straightforward processs, I've also done it a gajillion times. It sucks that Unity comes with one, but I still have not figured out how to use it, so I make the input system itself and all too. I tried using the controller inputs it comes with, but the data was not being recieved. 
 
-```javascrip
+
 I made a tunnel...yay.
 
 I'll probably do the interactor next. 
 
-Day 5 - Final Reflection
+# Day 5 - Final Reflection
+
+This project began as a compromise between ambition and time I have to do this, but wasn't fixated on any end point. I originally wanted to make a fully walkable metro environment, but realized that the amount of modeling, animation, interaction, and polish required would defnitely be unachievable, but perhaps now I will lean towards that now that my time is infinite. Choosing the REM instead of the metro helped me narrow the project into something more achievable: one clean, symmetrical train car that could support an observation-based puzzle game without needing too many extra assets.
+
+The biggest lesson was learning how to work fast without getting trapped by perfection. I was ultimately bogged down by my 310 work in work time, and misprioritized modeling time even with messy topology, and l;ess than ideal texturing, alas it allowed me to keep moving. Instead of obsessing over whether every dent, pole, or handle was perfectly accurate, I focused on whether the space felt believable. That shift was important because the project depended more on atmosphere and recognition than exact realism.
+
+The game design also became stronger because of the limitations. Since I could not build many objects, characters, or complex systems, I thought around what already exists in the trainwhich pushed the project toward an Exit 8-inspired structure, where repetition, small anomalies, and careful observation become the main mechanics. This is extremely valuable because while scope can always be increased, once a massive idea is conceived, it is hard to dial it down, so this is perfect.
+
+Sound design became one of the most tiptoey aspects. Using REM chimes and announcements made the prototype feel more connected to the real environment, but also raised copyright concerns. I would record and recreate my own sounds rather than relying on existing REM audio. That would let the sound stay diegetic and recognizable without limiting where the project could be shown to a certasin extent.
+
+Overall, the project helped me understand how scope, reference gathering, modeling, sound, and gameplay all affect each other. I did not even start really, but I developed a clear vertical slice direction, that I know is conceivable, a psychological observation puzzle set inside a single REM car. The strongest part of the project is that the constraints did not weaken the idea, they made it more focused.
+
+While I am dissapointed in my progress, there is no point in bashing myself, ultimately I had other classes as well. 
+
+In the next week, while I cannot submit them for grades, I will likely start moving the models into Unity and reconstructing the environment. 
+
 
 
 
