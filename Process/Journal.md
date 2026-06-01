@@ -554,7 +554,8 @@ I think using the REM is also a strong choice because it's already slightly limi
 
 I took pictures of a lot of things I thought I would forget, because photos are plenty on the internet. I needed to know exactly how many holders were above the chairs, not how stuff was arranged. I wasn’t really caring about quality, I just wanted to take brain references, not modeling ones. The photos are not pretty or even that functional, they are simply for references. These details are easy to overlook while riding the train, yet they contribute significantly to recreating a believable environment. This process made me realize that reference gathering is not always about accuracy in representation, sometimes it is about capturing the small observations that my monkey brain will discard. The photographs function less as images and more as memory aids that I would toss soon enough. 
 
-<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/image.png">
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/20260521_173030.jpg">
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/20260521_173436.jpg">
 
 # Day 2 (Tuesday) - Modeling & Game Design
 
@@ -567,8 +568,11 @@ I immediately jumped on modeling because I knew it would be time consuming even 
 I began by modeling the handles, this was fun. My polygon count was absolutely disgusting and I used the decimate modifiers to bring it down. This entire project is a lesson in accepting bad topology for the sake of polycount, it’s brutal. This is a bit of a new workflow since I am going so fast, i have never been this fast. I’ve been modifying the shapes to what I need in geometry, but then most of the time I needed to join pieces together, so I’d have to remesh it, which changes the object’s shape, then smoothing out and fine detailing in sculpting to improve it. This is new, and Anna would probably hate me, but it’s quick and dirty 
 
 Time Spent: 2 Hours
+
 Rigged: Spline
+
 Materials: BSDF and procedural
+
 Tools: Vertex editing, sculpting & remeshing
 
 <img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Chairs.png">
@@ -576,8 +580,11 @@ Tools: Vertex editing, sculpting & remeshing
 The seats were significantly faster, it's literally just a flattened cube extruded on X then sculpted, but at some point I just went you know what i'm not going to care about the accuracy of the dent and just make it look believable, so yeah "god forbid" if the dent pattern isn't the same as the original lol
 
 Time Spent: 1 hour
+
 Rigged: No
+
 Materials: BSDF
+
 Tools: Vertex editing, sculpting
 
 <img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/heater.png">
@@ -585,8 +592,11 @@ Tools: Vertex editing, sculpting
 I made the vent, which literaly took me 5 minutes, the bigger time waster was figuring out the proportions for the variant (Theres like one vent that sticks out more)
 
 Time Spent: 10 minutes
+
 Rigged: No
+
 Materials: Procedural 
+
 Tools: Vertex editing
 
 All models are prepared and ready for export into Unity. All materials are baked to their respective UV maps 
@@ -665,7 +675,7 @@ Rigged: No
 Materials: BSDF and Procedural
 Tools: Vertex editing, remeshing, and sculpting for smoothing
 
-<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/image.png">
+<img src="https://github.com/Nadia-Abdul-Aziz/CART315/blob/main/Process/Media/Screenshot 2026-06-01 153953.png">
 
 The ceiling poles were made quickly, but they will probably need to be re-proportionned. This has two variants
 
@@ -713,7 +723,6 @@ So I am cursed with controllers. The reason I say this is because I have a tende
 I made the first person controller based on this tutorial: 
 
 It is very standard, the only thing it would need is bobbing, which I can just steal from the group project at this point. Lesson to keep code to reuse. That said, it was also a very straightforward processs, I've also done it a gajillion times. It sucks that Unity comes with one, but I still have not figured out how to use it, so I make the input system itself and all too. I tried using the controller inputs it comes with, but the data was not being recieved. 
-
 
 I made a tunnel...yay.
 
