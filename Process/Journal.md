@@ -516,6 +516,193 @@ In Audio my feats were the following:
 
 Sure, being Jazz was an attempt, but i spent a lot of time learning how to adequately match the mood of the vision we had, which is valuable. The sound effects were very polished, which I am proud of. I began the implementation within a sound manager which is different from my previous workflows of attaching audio to objects. This is a more consolidated way to organize my sounds and will be useful in the sound design of future games. 
 
+# Day 1 (Monday) - Ideation & References
+
+## The Idea
+
+For a while I had a bit of a fixation in that I always wanted to make a metro game, like, a game that took place in a metro car. Nothing too complicated, I honestly wanted to 3D model the thing more than make a game, I always envisioned it as a walkable UE environment. So, right now i’m faced with the task of making something, anything, and reflecting on it, so I guess i’ll try my hand at it. I make something, I make something, I don’t, I don’t. I won't be fixated on finishing it either since I have three other classes to work on this week, however far I get. 
+
+## Refining
+
+My first priority was modeling, so I went down the 2am rabbit hole of looking up all of Montreal’s subway cars…and…maybe got distracted and watched a few documentaries. I looked at the metro photos and like, I’ve taken this thing a thousand times, but if eventually down the line, past this project, I wanted to be accurate, it’s a lot of work, and HARD work. It’s a lot of small details that my skills don’t measure up to yet. So I chose the easier option…the REM. 
+
+Yes yes, not every montrealer has taken the REM but it’s iconic enough to still work. I kinda thought to myself this morning “damn this boi EMPTY” when I took it downtown because it’s simpler, cleaner and just…symmetrical. 
+
+So then I came to play area scoping, how big of an environment. One car, that’s it. My initial vision of course was for there to be dynamic lighting, moving outside, physics, but no. I am making one singular car, and the doors do not open, and I am making outside an HDR. No, I am not arguing with myself, that’s it, this is the effort and time I have.
+
+## Game idea?
+
+Okay so walkable UE environment? Sure, but that requires me to do the nitty gritty modeling…naaaaaaah not on a schedule. Let’s do a medium fidelity model with a slightly more traditional game in Unity for simplicity’s sake. If I end up not being even close to finishing the modeling I can perhaps make the UE after all this. 
+
+A narrative or puzzle game made the most sense, but I cannot model so many objects and make animations and such in this time period. No dialogue, no text, no extra objects, this is hard. Puzzle games often introduce new elements over time and that is a no can do. That said, from those limitations, rather than creating puzzles with new objects, I guess I could create puzzles from the environment already present. Seats, poles, route maps, doors, lights, and announcements could become gameplay elements similar to an Exit 8 type of game with anomalies. 
+
+Exit 8 works for my purposes in that it proves that a small environment can do the job, it contains the following: 
+
+- Repeated space
+  
+- Observation-based gameplay
+  
+- Environmental storytelling
+  
+- Very few mechanics
+  
+- Atmosphere doing most of the work to be honest
+
+I think using the REM is also a strong choice because it's already slightly liminal with how the colors and elements are arranged, you know, automated announcements, bright clean interiors, repetitive stations and long stretches of quiet travel
+
+## Taking references
+
+I took pictures of a lot of things I thought I would forget, because photos are plenty on the internet. I needed to know exactly how many holders were above the chairs, not how stuff was arranged. I wasn’t really caring about quality, I just wanted to take brain references, not modeling ones. The photos are not pretty or even that functional, they are simply for references. These details are easy to overlook while riding the train, yet they contribute significantly to recreating a believable environment. This process made me realize that reference gathering is not always about accuracy in representation, sometimes it is about capturing the small observations that my monkey brain will discard. The photographs function less as images and more as memory aids that I would toss soon enough. 
+
+# Day 2 (Tuesday) - Modeling & Game Design
+
+## Modeling 
+
+I immediately jumped on modeling because I knew it would be time consuming even if I went fast
+
+I began by modeling the handles, this was fun. My polygon count was absolutely disgusting and I used the decimate modifiers to bring it down. This entire project is a lesson in accepting bad topology for the sake of polycount, it’s brutal. This is a bit of a new workflow since I am going so fast, i have never been this fast. I’ve been modifying the shapes to what I need in geometry, but then most of the time I needed to join pieces together, so I’d have to remesh it, which changes the object’s shape, then smoothing out and fine detailing in sculpting to improve it. This is new, and Anna would probably hate me, but it’s quick and dirty 
+
+Time Spent: 2 Hours
+Rigged: Spline
+Materials: BSDF and procedural
+Tools: Vertex editing, sculpting & remeshing
+
+The seats were significantly faster, it's literally just a flattened cube extruded on X then sculpted, but at some point I just went you know what i'm not going to care about the accuracy of the dent and just make it look believable, so yeah "god forbid" if the dent pattern isn't the same as the original lol
+
+Time Spent: 1 hour
+Rigged: No
+Materials: BSDF
+Tools: Vertex editing, sculpting
+
+I made the vent, which literaly took me 5 minutes, the bigger time waster was figuring out the proportions for the variant (Theres like one vent that sticks out more)
+
+Time Spent: 10 minutes
+Rigged: No
+Materials: Procedural 
+Tools: Vertex editing
+
+All models are prepared and ready for export into Unity. All materials are baked to their respective UV maps 
+
+## Game Design
+
+Thinking more closely about what exactly I wanted to build I eventually settled on a few things.
+
+Genre: Psychological observation puzzle game
+
+The core loop of the game takes place in that singular train car in the following manner: 
+
+- Train arrives at a station (Signaled through sound design)
+  
+- The intercom announces an instruction and/or environmental cues
+  
+- Player observes the environment
+  
+- Player solves a simple environmental puzzle
+  
+- Train departs (Likely a fade to black with a trajectory visual with sound design)
+
+The game is built around following instructions that don't quite make sense. No combat. No inventory. No dialogue trees. No nothing.
+
+### Puzzle 1: Fallen Pole
+
+Goal: Teach the player that announcements contain puzzle solutions or hints
+
+"Attention passengers. Due to maintenance concerns, please remain seated approximately one meter from the debris."
+
+In this level a pole has fallen from the ground yet everything else apears normal. 
+
+The intended solution involves the player noticing the pole roughly in the middle of the car, and while several seats are nearby in the standard seating arrangement, only one seat is approximately one meter away.
+
+The player must:
+
+- Identify the correct seat
+  
+- Interact with the seat/sit on it
+
+Only then will the closing door chime trigger and the train departs.
+
+If the player interacts with the wrong seats, nothing happens, perhaps light flickering or something subtle, if the player does not figure out a puzzle after a set amount of time, the announcement repeats. 
+
+Every puzzle should:
+
+- Be solvable through observation
+  
+- Require simple interact actions
+  
+- Take under one minute
+  
+- Use existing train assets
+
+This outline provides me with a clear initial goal for a vertical slice prototype.
+
+# Day 3 (Thursday) - Modeling & Sound design
+
+## Modeling
+
+I spent most of the day on voice chat with classmates doing random stuff, making this door, it was slower than it should have been because I was half paying attention. All in all creating the door's shape was relatively smooth, the challenge was making it sustainable in the case that I wanted it to open at some point, so the sides and main doors could not be attached. 
+
+Time Spent: 3 Hours
+Rigged: Yes
+Materials: BSDF and procedural
+Tools: Vertex editing & remeshing
+
+I did the middle pole, and it took a while to figure out how to join the pieces seamlessly without impacting the geometry so much and distorting the shape, this was not entirely successful since the topology is disgusting, but Unity doesn't care. 
+
+Time Spent: 1 hour
+Rigged: No
+Materials: BSDF and Procedural
+Tools: Vertex editing, remeshing, and sculpting for smoothing
+
+The ceiling poles were made quickly, but they will probably need to be re-proportionned. This has two variants
+
+Time Spent: 5 minutes
+Rigged: No
+Materials: None yet
+Tools: Vertex editing
+
+The session was very usual, nothing that interesting to reflect on per se, I simply wish I wouldn't get caught up in the small details that slow me down. 
+
+## Sound 
+
+The sounds of the REM are private property of the establishment, therefore I have no rights to use this for any public or publishing purposes, but I want the game's audio to be composed from recordings and extracted sounds of the trajectory, that I will eventuall record myself. For now, I have found clean sounds of the REM, including the announcements and chimes, once again, they are not copyright free. I believe that using the diegetic sound of the environment will create an immersive experience, though is a slippery slope. 
+
+I downloaded the chimes and sounds heard in the train, and made a short composition. It can be used as a menu sound, I think. It was pretty fast to make, but designing the synth to be close enough to the original sound was tricky, and definitely doesn't blend yet. 
+
+Again, all this taught me that yes it's good to use diegetic sound, but be mindful when i get to implementation. Using my own recorded versions will certainly be better. 
+
+# Day 4 (Friday) - Unity & Modeling
+
+## Modeling 
+The modeling itself wasn't very notable, just pipes, what was is the arranement of the elements. I began laying things out proportionally, or as proportional as I could. 
+
+Time Spent: 1 hour
+Rigged:
+Materials:
+Tools: 
+
+Time Spent: 5 minutes
+Rigged:
+Materials:
+Tools:
+## Unity
+
+So I am cursed with controllers. The reason I say this is because I have a tendency to do them...then stop...AAAAAAAAAAAAAAAAH
+
+I made the first person controller based on this tutorial: 
+
+It is very standard, the only thing it would need is bobbing, which I can just steal from the group project at this point. Lesson to keep code to reuse. That said, it was also a very straightforward processs, I've also done it a gajillion times. It sucks that Unity comes with one, but I still have not figured out how to use it, so I make the input system itself and all too. I tried using the controller inputs it comes with, but the data was not being recieved. 
+
+```javascrip
+I made a tunnel...yay.
+
+I'll probably do the interactor next. 
+
+Day 5 - Final Reflection
+
+
+
+
+
 
 
 
