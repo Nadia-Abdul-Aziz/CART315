@@ -720,11 +720,11 @@ Tools:
 
 So I am cursed with controllers. The reason I say this is because I have a tendency to do them...then stop...AAAAAAAAAAAAAAAAH
 
-I made the first person controller based on this tutorial: 
+I made the first person controller based on this tutorial: https://www.youtube.com/watch?v=vBWcb_0HF1c&t=233s
 
 It is very standard, the only thing it would need is bobbing, which I can just steal from the group project at this point. Lesson to keep code to reuse. That said, it was also a very straightforward processs, I've also done it a gajillion times. It sucks that Unity comes with one, but I still have not figured out how to use it, so I make the input system itself and all too. I tried using the controller inputs it comes with, but the data was not being recieved. 
 
-I made a tunnel...yay.
+I made a tunnel too...yay.
 
 I'll probably do the interactor next. 
 
